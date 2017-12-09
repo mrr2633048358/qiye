@@ -1,0 +1,119 @@
+@import url('base.css');
+@import url('response.css');
+.ban{
+	padding: 0;
+	margin-top: 30px;
+}
+.ul{
+	bottom: -50px;
+}
+/* mian开始 */
+.dizhi{
+	width: 100%;
+	height: 20px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.dizhi a{
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	color: #333;
+	padding: 0 10px;
+}
+.list{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 10px  100px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.list-son1{
+	width: 30%;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	background: #333;
+}
+.list-son1:hover{
+	background: #E14719;
+}
+.main-box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.boxson{
+	width: 31%;
+	height: auto;
+	overflow: hidden;
+	display: block;
+	display: flex; 
+	position: relative;
+	margin: 5px 5px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	transition: all 0.5s;
+}
+.boxson:hover{
+	box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.3);
+	transform: translate(0,-5px);
+}
+.linst-left{
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+}
+.linst-left img{
+	width: 100%;
+	height: 300px;
+	transition: all 0.5s;
+}
+.zhezh{
+	width: 100%;
+	height: 300px;
+	background: rgba(255, 255, 255,0.3);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.linst-left p{
+	width: 100%;
+	font-size: 15px;
+	line-height: 0px;
+	padding:20px;
+	color: #000;
+	font-weight: 600;
+}
+.list-zhz{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 30%;
+	display: block;
+}
+.icon-bofang{
+	width: 100%;
+	height: 100%;
+	font-size: 80px;
+	text-align: center;
+	line-height: 80px;
+	color: #000;
+}
+.boxson:hover .icon-bofang{
+	color: #E14719;
+}
+/* main结束 */

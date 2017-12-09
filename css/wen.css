@@ -1,0 +1,161 @@
+@import url('base.css');
+@import url('response.css');
+.ban{
+	padding: 0;
+	margin-top: 30px;
+}
+.ul{
+	bottom: -50px;
+}
+.main{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+/* mian开始 */
+.dizhi{
+	width: 100%;
+	height: 20px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.dizhi a{
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	color: #333;
+	padding: 0 10px;
+}
+.list{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 10px  100px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.list-son{
+	width: 30%;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	background: #666;
+}
+.son{
+	background: #fff;
+	color: #333;
+}
+.main-box1{
+	width: 90%;
+	height: 800px;
+	overflow: hidden;
+	display: flex;
+	margin: 0 auto;
+	position: relative;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.list{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 10px  100px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+.list-son1{
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	padding: 0 20px;
+	margin: 0 2px;
+	color: #fff;
+	background: #333;
+}
+.list-son1:hover{
+	background: #fff;
+	color: #333;
+}
+.boxson{
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+	display: block;
+	padding: 20px 40px;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+}
+.linst-right{
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+	padding: 10px 20px;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	z-index: 1;
+	transition: 1s;
+}
+.gkxxk{
+	opacity: 1;
+	z-index: 10;
+}
+.linst-right .b1{
+	width: 100%;
+	font-size: 25px;
+	line-height: 60px;
+	text-align: center;
+	padding:10px;
+	color: #000;
+	text-indent: 0rem;
+	font-weight: 600;
+}
+.linst-right .b3{
+	height: 40px;
+	text-indent: 0rem;
+	text-align: center;
+}
+.linst-right .b2{
+	height: 40px;
+	text-indent: 0rem;
+	font-weight: 600;
+}
+.linst-right p{
+	font-size: 16px;
+	line-height: 30px;
+	color: #333;
+	text-indent: 2rem;
+	padding: 5px 10px;
+	transition: all 0.5s;
+}
+.linst-right .b1:hover{
+	color: #E14719;
+	transform:  translate(0,-10px);
+}
+.linst-img{
+	width: 57%;
+	height: 400px;
+	overflow: hidden;
+	background: red;
+	float: right;
+	margin: 0 20px;
+}
+.linst-img img{
+	width: 100%;
+	height: 100%;
+}
+.c1{	
+	margin-top: 80px;
+}
+.c2{
+	height: 350px;
+}
+/* main结束 */

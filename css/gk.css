@@ -1,0 +1,102 @@
+@import url('base.css');
+@import url('response.css');
+.ban{
+	padding: 0;
+	margin-top: 30px;
+}
+.ul{
+	bottom: -50px;
+}
+.main{
+	width: 100%;
+	height: 900px;
+	overflow: hidden;
+	position: relative;
+}
+/* mian开始 */
+.dizhi{
+	width: 100%;
+	height: 20px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.dizhi a{
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	color: #333;
+	padding: 0 10px;
+}
+.list{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 10px  100px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+.list-son1{
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	padding: 0 60px;
+	margin: 0 2px;
+	color: #fff;
+	background: #333;
+	transition: 1s;
+}
+.son{
+	background: #fff;
+	color: #333;
+}
+.main-box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	opacity: 0;
+	z-index: 0;
+	transition: 1s;
+}
+.gkxxk{
+	opacity: 1;
+	z-index: 10;
+}
+.main-box p:first-child{
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	line-height: 30px;
+	padding:30px 0;
+	color: #000;
+	font-weight: 600;
+}
+.boxson{
+	width: 50%;
+	height: auto;
+	overflow: hidden;
+	padding: 20px 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.boxson p{
+	font-size: 16px;
+	text-align: center;
+	line-height: 30px;
+	color: #333;
+	text-indent: 4rem;
+	padding: 10px 20px;
+}
+.boxson img{
+	width: 110%;
+	height: 100%
+}
+/* main结束 */

@@ -1,0 +1,424 @@
+@import url('base.css');
+@import url('response.css');
+/* 导航栏开始 */
+.header-box{
+	width: 100%;
+	height: 60px;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 10px 0 0 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: -3px 0 5px 3px rgba(0, 0, 0, 0.2);
+	z-index: 999;
+}
+.aa{
+	height: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 0 0 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-left{
+	font-size: 30px;
+	line-height: 30px;
+	color: #000;
+	padding-left: 20px;
+}
+.header-right{
+	height: 40px;
+	padding-right: 60px;
+}
+.header-input{
+	width: 480px;
+	height: 30px;
+	border: 1px solid #666;
+	float: left;
+	color: #666;
+	padding: 5px;
+	font-size:16px;
+	line-height: 20px;
+}
+.header-an{
+	width: 80px;
+	height: 30px;
+	background: #000;
+	float: right;
+	color: #fff;
+	border: 1px solid #666;
+	border-left: 0;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+}
+/* 导航栏结束 */
+/* banner开始 */
+.nav{
+	height: auto;
+	overflow: hidden;
+	background: #000;
+	margin-top: 100px;
+}
+.daohang{
+	width: 20%;
+	height: auto;
+	overflow: hidden;
+	font-size: 16px;
+	text-align: center;
+	border-left: 2px solid #000;
+	float: left;
+}
+.daohang:first-child{
+	border: 0;
+}
+.daohang a{
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	padding: 10px 0;
+	display: block;
+}
+.daohang:hover{
+	background: #fff;
+}
+.daohang:hover a{
+	color: #000;
+}
+.a1{
+	background: #fff;
+}
+.a1 a{
+	color: #000;
+}
+.banner{
+	width:1170px;
+	height: auto;/* 
+	background: red; */
+	overflow: hidden;
+	margin:50px auto;
+	position: relative;
+}
+.pic{
+	width:100%;
+	height: 550px;
+	overflow: hidden;
+	position: relative;
+}
+.pic li{
+	width:100%;
+	height: 650px;
+	float: left; 
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	z-index: 0;
+	transition: 1s;
+}
+.piczz{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.4);
+	z-index: 11;
+}
+.pic .li{
+	opacity: 1;
+	z-index: 10;
+}
+.pic li img{
+	width: 100%;
+	height: 650px;
+}
+.an-list{
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	bottom: 60px;
+	left: 0;
+	right: 0;
+	z-index: 12;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.an-left{
+	width: auto;
+	height: 40px;
+}
+.an-left img{
+	float: left;
+	height: 100%;
+	width: auto;
+	overflow: hidden;
+}
+.nav-center{
+	width: auto;
+	overflow: hidden;
+	height: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.nav-center li{
+	width: 6px;
+	height: 6px;
+	margin: 0 10px;
+	float: left;
+	background: #333;
+	border-radius: 50%;
+	transition: all 0.5s;
+	transform: scale(1);
+}
+.nav-center .an{
+	transform: scale(2);
+	background: #fff;
+}
+/* banner结束 */
+/* 主要展示开始 */
+.line1{
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+.line1-left{
+	width:48%;
+	height: auto;
+	display: block;
+	overflow: hidden;
+}
+.line1-left:nth-child(2){
+	margin-right: 0;
+}
+.lin1-wen{
+	width: 100%;
+	height: 80px;
+	background: #fff;
+	padding: 15px 0;
+	border-bottom: 2px solid #eee;
+}
+.lin1-wen p{
+	font-size: 26px;
+	text-align: center;
+	line-height: 30px;
+	color: #000;
+}
+.lin1-wen p:nth-child(2){
+	font-size: 16px;
+	line-height: 30px;
+}
+.line1-pic{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+.line1-pic img{
+	height: 100%;
+}
+.line2{
+	width: 100%;
+	height: 350px;
+	/* overflow: hidden; */
+	margin-top: 30px;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	position: relative;
+}
+.line2s{
+	width: 200%;
+	height: 100%;
+	position: absolute;
+	left: 15px;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.right1{
+	width: 30px;
+	height: 60px;
+	background: #999;
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	font-family: '宋体';
+	outline: none;
+	position: absolute;
+	top: 140px;
+}
+.r1{
+	left: 0;
+}
+.r2{
+	right: 0;
+}
+.kuang{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	border: 15px solid #59360b;
+	border-top: 10px solid #59360b;
+	border-bottom: 10px solid #59360b;
+}/* 
+.r1{
+	color: #b0b0b0;
+	border: 1px solid #b0b0b0;
+} */
+.line2-pic{
+	width: 12.2%;
+	height: 100%;
+	display: block;
+	overflow: hidden;
+}
+.line2-pic img{
+	width: 100%;
+	height: 100%;
+	transition: all 0.5s;
+}
+.line2-pic:hover img{
+	transform: scale(1.1 ,1.1);
+}
+/* 主要展示结束 */
+/* 图游记开始 */
+.tutou-box{
+	width:100%;
+	height: 47px;
+	margin: 50px 0; 
+	display: flex;
+	background: #ccc;
+	justify-content: center;
+}
+.tutou-son{
+	width: 47px;
+	height: 47px;
+	margin: 0 15px;
+	background: url('../img/zi1.png') no-repeat 0 0;
+	text-align: center;
+	line-height: 47px;
+	font-size: 26px;
+	color: #666;
+}
+.tutou-main{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+.tutou-son1,.tutou-son2{
+	width: 50%;
+	height: 560px;
+}
+.tutou-son2{
+	width: 24%;
+}
+.p{
+    
+}
+.secTu-pic{
+	width:100%;
+	height: 90%;
+	overflow: hidden;
+}
+.secTu-pic img{
+	height: 100%;
+	margin-left: -180px;
+	transition: all 0.5s;
+}
+.secTu-pic:hover img{
+	transform: scale(1.1 ,1.1);
+}
+.secTu-wen{
+	width: 100%;
+	height: 50px;
+	padding: 10px 20px;
+}
+.tutou-topson{
+	width: 100%;
+	height: 50%;
+}
+.tutou-topson .secTu-pic img{
+	height: 100%;
+	width: 100%;
+	margin-left: 0;
+}
+.tutou-topson .secTu-pic{
+	width:100%;
+	height: 82%;
+	overflow: hidden;
+}
+.tutou-son3{
+	width: 100%;
+	height: 560px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+/* 图游记结束 */
+/* 记录开始 */
+.jilu{
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #999;
+}
+.jilu-son{
+	width: 32%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	padding: 40px 20px;
+}
+.jilu-son p{
+	font-size: 16px;
+	line-height: 30px;
+	color: #000;
+	font-weight: 600;
+	text-align: center;
+}
+.chak{
+	overflow: hidden;
+	width: 100px;
+	padding: 5px 10px;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	background: #333;
+	color: #fff;
+	display: block;
+	margin: 10px auto;
+}
+/* 记录结束 */
+.footer{
+	width: 100%;
+	height: 50px;
+	background: #333;
+	text-align: center;
+	line-height: 50px;
+	font-size: 12px;
+	color: #fff;
+	margin-top: 20px;
+}

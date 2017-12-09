@@ -1,0 +1,115 @@
+@import url('base.css');
+@import url('response.css');
+.ban{
+	padding: 0;
+	margin-top: 30px;
+}
+.ul{
+	bottom: -50px;
+}
+/* mian开始 */
+.dizhi{
+	width: 100%;
+	height: 20px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.dizhi a{
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	color: #333;
+	padding: 0 10px;
+}
+.list{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 10px  100px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.list-son1{
+	width: 30%;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	background: #333;
+}
+.list-son1:hover{
+	background: #E14719;
+}
+.main-box{
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+	display: block;
+	margin: 0 auto;
+	padding: 20px 40px;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+}
+.boxson{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 10px 20px;
+	position: relative;
+}
+.boxson p{
+	font-size: 16px;
+	line-height: 30px;
+	color: #333;
+	text-indent: 2rem;
+	padding: 5px 10px;
+	transition: all 0.5s;
+}
+.boxson .b1{
+	width: 100%;
+	font-size: 30px;
+	line-height: 60px;
+	text-align: center;
+	padding:10px;
+	color: #000;
+	text-indent: 0rem;
+	font-weight: 600;
+}
+.boxson .b3{
+	height: 40px;
+	text-indent: 0rem;
+	text-align: center;
+	margin: 0px 0 20px;
+}
+.boxson .b2{
+	height: 40px;
+	text-indent: 0rem;
+	font-weight: 600;
+}
+.b1:hover{
+	color: #E14719;
+	transform:  translate(0,-10px);
+}
+.linst-img{
+	width: 60%;
+	height: 400px;
+	overflow: hidden;
+	background: red;
+	float: right;
+	margin: 0 20px;
+	margin-top: 20px;
+}
+.linst-img img{
+	width: 100%;
+	height: 100%;
+}
+.c1{	
+	margin-top: 80px;
+}
+.c2{
+	height: 300px;
+}
+/* main结束 */
